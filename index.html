@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="nav">
+    <nav>
         <img src="assets/images/logo.png" alt="Four Balloons Site Logo">
         <ul>
             <li>
@@ -20,18 +20,19 @@
                 <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1 Success Criteria</a>
             </li>
         </ul>
-    </div>
-    <div class="main">
+    </nav>
+    
+    <main>
         <h1>WebFiesta: The Online Party Supply Superstore!!</h1>
-        <h1>About Us</h1>
+        <h2>About Us</h2>
         <img src="assets/images/balloons.jpg" class="banner" alt="Colorful Balloons Banner"> 
         <a href="https://pxhere.com/en/photo/1267651">Image source</a>
         <h3>Come here for all your party supply needs!</h3>
         <p>Kid's birthday? Grandpa's birthday? Anniversary? Fourth Wedding? You name the celebration, we have what you need!</p>
         <hr>
-        <h1>Contact Us</h1>
-        <h6>We my take 3-6 business days to respond</h6>
-        <h5>Click the Clear Form button to clear the form or the Submit Form button to submit the form data.</h5>
+        <h2>Contact Us</h2>
+        <h3>We my take 3-6 business days to respond</h3>
+        <h4>Click the Clear Form button to clear the form or the Submit Form button to submit the form data.</h4>
         <form>
             <h2>Contact Form</h2>
             <div>
@@ -45,6 +46,7 @@
             <div>
                 Concern or Issue:
                 <select name="concern" id="concern">
+                    <option value="">-- Select an option --</option>
                     <option value="1">missing product</option>
                     <option value="2">billing issue</option>
                     <option value="3">speak with representative</option>
@@ -60,20 +62,20 @@
         </form>
         <hr>
         <h1>Directions</h1>
-        <div class="section">
+        <section>
             <div>
-                <img src="assets/images/car.png" alt="Car Icon"> 20 mins 
+                <img src="assets/images/car.png" alt="Car Icon" aria-label="car commute time"> 20 mins 
             </div>
             <div>
-                <img src="assets/images/bicycle.png" alt="Bicycle Icon"> 35 mins
+                <img src="assets/images/bicycle.png" alt="Bicycle Icon" aria-label="bicycle commute time"> 35 mins
             </div>
             <div>
-                <img src="assets/images/ferry.png" alt="Ferry Icon"> 50 mins
+                <img src="assets/images/ferry.png" alt="Ferry Icon" aria-label="ferry commute time"> 50 mins
             </div>
             <div>
-                <img src="assets/images/bus.png" alt="Bus Icon"> 55 mins
+                <img src="assets/images/bus.png" alt="Bus Icon" aria-label="bus commute time"> 55 mins
             </div>
-        </div>
+        </section> 
         <div>
             It's easy peasy to get here to our physical warehouse, just check the transportation mode you'll be using!
         </div>
@@ -81,13 +83,14 @@
             Icons made by <a href="https://www.flaticon.com/authors/fjstudio" title="fjstudio">fjstudio</a> from 
             <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
-    </div>
-    <div class="footer">
+    </main> 
+
+    <footer>
         Thanks for stopping by ❤️ 
         <div>
             <img alt="Four Balloons Site Logo" src="assets/images/logo.png">
             <a href="https://creazilla.com/nodes/64384-colourful-balloons-clipart">Cute logo provided by ElisaRiva via Pixabay</a>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
